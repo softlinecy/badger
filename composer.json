@@ -1,5 +1,6 @@
 {
-    "name": "cachethq/badger",
+    "name": "softlinecy/badger",
+    "version": "1.0.0",
     "description": "A badge generator for Laravel.",
     "keywords": ["badger", "badge", "shield", "svg", "Badger", "Cachet", "CachetHQ"],
     "license": "MIT",
@@ -43,9 +44,6 @@
         "test": "vendor/bin/pest"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "4.0-dev"
-        },
         "laravel": {
             "providers": [
                 "Cachet\\Badger\\BadgerServiceProvider"
